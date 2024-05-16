@@ -18,7 +18,7 @@ Author and developer: ___A.A Suvorov___
 
 ***
 
-> Download: [ConsolePassGen](https://github.com/smartlegionlab/SmartPasswordGenerator/releases/download/v0.1.0/SmartPasswordGenerator.zip);
+>[Download for Windows](https://github.com/smartlegionlab/SmartPasswordGenerator/releases/download/v0.1.0/SmartPasswordGenerator.zip)
 
 ***
 
