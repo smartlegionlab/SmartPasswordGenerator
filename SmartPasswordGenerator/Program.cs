@@ -158,19 +158,19 @@ class SmartPasswordGeneratorApp
         string password = "";
         Console.WriteLine("*** Smart Password Generator ***");
         Console.WriteLine("--------------------------------");
-        Console.WriteLine("Для выбора режима,\nвведите цифру соответствующую\nпункту меню и нажмите Enter: ");
+        Console.WriteLine("To select a mode,\nenter the number corresponding\nmenu item and press <Enter>: ");
         Console.WriteLine("--------------------------------");
-        Console.WriteLine("1. Генератор умных паролей.");
-        Console.WriteLine("2. Генератор обычных паролей.");
-        Console.WriteLine("0. Выход.");
+        Console.WriteLine("1. Smart Password Generator.");
+        Console.WriteLine("2. Default password generator.");
+        Console.WriteLine("0. Exit.");
         Console.WriteLine("--------------------------------");
         string input = Console.ReadLine();
         Console.WriteLine("--------------------------------");
         if (input == "1")
         {
-            Console.WriteLine("Генератор умных паролей");
+            Console.WriteLine("Smart Password Generator");
             Console.WriteLine("--------------------------------");
-            Console.WriteLine("Введите длину пароля: ");
+            Console.WriteLine("Enter password length: ");
             Console.WriteLine("--------------------------------");
             int passwordLength = 0;
             try
@@ -181,32 +181,32 @@ class SmartPasswordGeneratorApp
             catch (Exception e)
             {
                 passwordLength = 12;
-                Console.WriteLine("Ошибка! Вы не ввели длину пароля. Использую 12 символов.");
+                Console.WriteLine("Error! You have not entered a password length. I use 12 characters.");
                 Console.WriteLine("--------------------------------");
             }
             if (passwordLength <= 0)
             {
                 passwordLength = 12;
-                Console.WriteLine("Ошибка! Неверная длина пароля. Использую 12 символов.");
+                Console.WriteLine("Error! Invalid password length. I use 12 characters.");
                 Console.WriteLine("--------------------------------");
             }
             else if (passwordLength > 1000)
             {
                 passwordLength = 1000;
-                Console.WriteLine("Ошибка! Пароль не может быть длинее 1000 символов. Использую 1000 символов.");
+                Console.WriteLine("Error! The password cannot be longer than 1000 characters. I use 1000 characters.");
                 Console.WriteLine("--------------------------------");
             }
             string secretPhrase = "";
-            Console.WriteLine("Введите секретную фразу: ");
+            Console.WriteLine("Enter secret phrase: ");
             Console.WriteLine("--------------------------------");
             secretPhrase = Console.ReadLine();
             Console.WriteLine("--------------------------------");
             password = smartPassGen.CreateSmartPassword(passwordLength, secretPhrase);
             Console.WriteLine(password);
         } else if (input == "2") {
-            Console.WriteLine("Генератор обычных паролей");
+            Console.WriteLine("Default password generator");
             Console.WriteLine("--------------------------------");
-            Console.WriteLine("Введите длину пароля: ");
+            Console.WriteLine("Enter password length: ");
             Console.WriteLine("--------------------------------");
             int passwordLength = 0;
             try
@@ -217,29 +217,29 @@ class SmartPasswordGeneratorApp
             catch (Exception e)
             {
                 passwordLength = 12;
-                Console.WriteLine("Ошибка! Вы не ввели длину пароля. Использую 12 символов.");
+                Console.WriteLine("Error! You have not entered a password length. I use 12 characters.");
                 Console.WriteLine("--------------------------------");
             }
             if (passwordLength <= 0)
             {
                 passwordLength = 12;
-                Console.WriteLine("Ошибка! Неверная длина пароля. Использую 12 символов.");
+                Console.WriteLine("Error! Invalid password length. I use 12 characters.");
                 Console.WriteLine("--------------------------------");
             }
             else if (passwordLength > 1000)
             {
                 passwordLength = 1000;
-                Console.WriteLine("Ошибка! Пароль не может быть длинее 1000 символов. Использую 1000 символов.");
+                Console.WriteLine("Error! The password cannot be longer than 1000 characters. I use 1000 characters.");
                 Console.WriteLine("--------------------------------");
             }
             password = smartPassGen.CreatePassword(passwordLength);
             Console.WriteLine(password);
         } else
         {
-            Console.WriteLine("Выход");
+            Console.WriteLine("Exit");
         }
         Console.WriteLine("--------------------------------");
-        Console.WriteLine("Нажмите <Enter> для выхода...");
+        Console.WriteLine("Press <Enter> to exit...");
         Console.Read();
         Console.WriteLine("--------------------------------");
         Console.WriteLine("=== Smart Legion Lab ===");
