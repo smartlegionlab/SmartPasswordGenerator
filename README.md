@@ -1,4 +1,4 @@
-# SmartPasswordGenerator
+# SmartPasswordGenerator <sup>v0.2.0</sup>
 
 ***
 
@@ -18,7 +18,7 @@ Author and developer: ___A.A. Suvorov___
 
 ***
 
->[Download for Windows](https://github.com/smartlegionlab/SmartPasswordGenerator/releases/download/v0.1.0/SmartPasswordGenerator.zip)
+>[Download for Windows](https://github.com/smartlegionlab/SmartPasswordGenerator/releases/download/v0.2.0/SmartPasswordGenerator.zip)
 
 ***
 
