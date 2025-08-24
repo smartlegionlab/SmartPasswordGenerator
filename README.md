@@ -1,4 +1,4 @@
-# SmartPasswordGenerator <sup>v0.2.0</sup>
+# SmartPasswordGenerator <sup>v0.3.0</sup>
 
 ***
 
@@ -18,7 +18,7 @@ Author and developer: ___A.A. Suvorov___
 
 ***
 
->[Download for Windows](https://github.com/smartlegionlab/SmartPasswordGenerator/releases/download/v0.2.0/SmartPasswordGenerator.zip)
+>[Download for Windows](https://github.com/smartlegionlab/SmartPasswordGenerator/releases/download/v0.3.0/SmartPasswordGenerator.zip)
 
 ***
 
@@ -28,25 +28,25 @@ Author and developer: ___A.A. Suvorov___
 
 ***
 
-## Disclaimer of liability:
+## 📜 Licensing
 
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This project is offered under a dual-licensing model.
 
-***
+### 🆓 Option 1: BSD 3-Clause License (for Non-Commercial Use)
+This license is **free of charge** and allows you to use the software for:
+- Personal and educational purposes
+- Academic research and open-source projects
+- Evaluation and testing
 
-## Copyright:
-    --------------------------------------------------------
-    Licensed under the terms of the BSD 3-Clause License
-    (see LICENSE for details).
-    Copyright © 2018-2024, A.A. Suvorov
-    All rights reserved.
-    --------------------------------------------------------
+**Important:** Any use by a commercial organization or for commercial purposes (including internal development and prototyping) requires a commercial license.
+
+### 💼 Option 2: Commercial License (for Commercial Use)
+A commercial license is **required** for:
+- Integrating this software into proprietary products
+- Using it in internal operations within a company
+- SaaS and hosted services that incorporate this software
+
+**Important:** The commercial license provides usage rights but **does not include any indemnification or liability**. The software is provided "AS IS" without any warranties as described in the full license agreement.
+
+**To obtain a commercial license,** please contact us directly at:  
+📧 **smartlegiondev@gmail.com**
