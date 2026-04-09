@@ -1,14 +1,28 @@
-# SmartPasswordGenerator <sup>v1.0.0</sup>
+# SmartPasswordGenerator <sup>v1.0.1</sup>
 
-***
+Smart Password Generator (C# old version)
+
+---
+
+![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/SmartPasswordGenerator)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/SmartPasswordGenerator)](https://github.com/smartlegionlab/SmartPasswordGenerator/)
+[![GitHub](https://img.shields.io/github/license/smartlegionlab/SmartPasswordGenerator)](https://github.com/smartlegionlab/SmartPasswordGenerator/blob/master/LICENSE)
+[![GitHub Repo stars](https://img.shields.io/github/stars/smartlegionlab/SmartPasswordGenerator?style=social)](https://github.com/smartlegionlab/SmartPasswordGenerator/)
+[![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/SmartPasswordGenerator?style=social)](https://github.com/smartlegionlab/SmartPasswordGenerator/)
+[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/SmartPasswordGenerator?style=social)](https://github.com/smartlegionlab/SmartPasswordGenerator/)
+
+---
 
 > WARNING! Not compatible with smart password generators written in Python. Smart passwords will be different.
+> WARNING! Following the research, the approach itself, the core idea, and the implementations have been corrected and improved! However, this implementation has not yet been rewritten to accommodate the new approaches.
 
-***
+## Research Paradigms & Publications
 
-Author and developer: ___A.A. Suvorov___
+- [Pointer-Based Security Paradigm](https://doi.org/10.5281/zenodo.17204738) - Architectural Transition from Data Protection to No Vulnerable Data.  `doi.org/10.5281`
+- [Local Data Regeneration Paradigm](https://doi.org/10.5281/zenodo.17264327) - Ontological Shift from Data Transmission to Synchronous State Discovery.  `doi.org/10.5281`
+- [Position-Candidate-Hypothesis (PCH) Paradigm](https://doi.org/10.5281/zenodo.17264327) - A New Research Direction for NP-Complete Problems.  `doi.org/10.5281`
 
-***
+---
 
 ## Images:
 
@@ -16,27 +30,25 @@ Author and developer: ___A.A. Suvorov___
 
 ![logo](https://github.com/smartlegionlab/SmartPasswordGenerator/raw/master/data/images/SmartPasswordGenerator2.png)
 
-***
+---
 
 ## Requirements:
 
 [.NET 8.0](https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win-x64&os=win10&apphost_version=8.0.1)
 
-***
+---
 
-## 📜 License & Disclaimer
+## ⚠️ Disclaimer
 
-BSD 3-Clause License
+**By using this software, you agree to the full disclaimer terms.**
 
-Copyright (c) 2025, Alexander Suvorov
+**Summary:** Software provided "AS IS" without warranty. You assume all risks.
 
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/SmartPasswordGenerator/blob/master/DISCLAIMER.md)
+
+---
+
+## License
+
+*Licensed under [BSD 3-Clause License](LICENSE) • Copyright (©) 2026, [Alexander Suvorov](https://github.com/smartlegionlab)*
+
